@@ -13,32 +13,6 @@
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('../fonts/Raleway-BoldItalic.eot');
-	src: local('Raleway Bold Italic'), local('Raleway-BoldItalic'),
-		url('../fonts/Raleway-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-BoldItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-BoldItalic.woff') format('woff'),
-		url('../fonts/Raleway-BoldItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-BoldItalic.svg#Raleway-BoldItalic') format('svg');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-MediumItalic.eot');
-	src: local('Raleway Medium Italic'), local('Raleway-MediumItalic'),
-		url('../fonts/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-MediumItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-MediumItalic.woff') format('woff'),
-		url('../fonts/Raleway-MediumItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
 	src: url('../fonts/Raleway-SemiBold.eot');
 	src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
 		url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
@@ -48,97 +22,6 @@
 		url('../fonts/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
 	font-weight: 600;
 	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-Thin.eot');
-	src: local('Raleway Thin'), local('Raleway-Thin'),
-		url('../fonts/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-Thin.woff2') format('woff2'),
-		url('../fonts/Raleway-Thin.woff') format('woff'),
-		url('../fonts/Raleway-Thin.ttf') format('truetype'),
-		url('../fonts/Raleway-Thin.svg#Raleway-Thin') format('svg');
-	font-weight: 100;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ExtraLightItalic.eot');
-	src: local('Raleway ExtraLight Italic'), local('Raleway-ExtraLightItalic'),
-		url('../fonts/Raleway-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-ExtraLightItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-ExtraLightItalic.woff') format('woff'),
-		url('../fonts/Raleway-ExtraLightItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-ExtraLightItalic.svg#Raleway-ExtraLightItalic') format('svg');
-	font-weight: 200;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ExtraBold.eot');
-	src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
-		url('../fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
-		url('../fonts/Raleway-ExtraBold.woff') format('woff'),
-		url('../fonts/Raleway-ExtraBold.ttf') format('truetype'),
-		url('../fonts/Raleway-ExtraBold.svg#Raleway-ExtraBold') format('svg');
-	font-weight: 800;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-BlackItalic.eot');
-	src: local('Raleway Black Italic'), local('Raleway-BlackItalic'),
-		url('../fonts/Raleway-BlackItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-BlackItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-BlackItalic.woff') format('woff'),
-		url('../fonts/Raleway-BlackItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-BlackItalic.svg#Raleway-BlackItalic') format('svg');
-	font-weight: 900;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-SemiBoldItalic.eot');
-	src: local('Raleway SemiBold Italic'), local('Raleway-SemiBoldItalic'),
-		url('../fonts/Raleway-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-SemiBoldItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-SemiBoldItalic.woff') format('woff'),
-		url('../fonts/Raleway-SemiBoldItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-SemiBoldItalic.svg#Raleway-SemiBoldItalic') format('svg');
-	font-weight: 600;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ExtraLight.eot');
-	src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'),
-		url('../fonts/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-ExtraLight.woff2') format('woff2'),
-		url('../fonts/Raleway-ExtraLight.woff') format('woff'),
-		url('../fonts/Raleway-ExtraLight.ttf') format('truetype'),
-		url('../fonts/Raleway-ExtraLight.svg#Raleway-ExtraLight') format('svg');
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ThinItalic.eot');
-	src: local('Raleway Thin Italic'), local('Raleway-ThinItalic'),
-		url('../fonts/Raleway-ThinItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-ThinItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-ThinItalic.woff') format('woff'),
-		url('../fonts/Raleway-ThinItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-ThinItalic.svg#Raleway-ThinItalic') format('svg');
-	font-weight: 100;
-	font-style: italic;
 }
 
 @font-face {
@@ -169,58 +52,6 @@
 
 @font-face {
 	font-family: 'Raleway';
-	src: url('../fonts/Raleway-Italic.eot');
-	src: local('Raleway Italic'), local('Raleway-Italic'),
-		url('../fonts/Raleway-Italic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-Italic.woff2') format('woff2'),
-		url('../fonts/Raleway-Italic.woff') format('woff'),
-		url('../fonts/Raleway-Italic.ttf') format('truetype'),
-		url('../fonts/Raleway-Italic.svg#Raleway-Italic') format('svg');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-Black.eot');
-	src: local('Raleway Black'), local('Raleway-Black'),
-		url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-Black.woff2') format('woff2'),
-		url('../fonts/Raleway-Black.woff') format('woff'),
-		url('../fonts/Raleway-Black.ttf') format('truetype'),
-		url('../fonts/Raleway-Black.svg#Raleway-Black') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-ExtraBoldItalic.eot');
-	src: local('Raleway ExtraBold Italic'), local('Raleway-ExtraBoldItalic'),
-		url('../fonts/Raleway-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-ExtraBoldItalic.woff') format('woff'),
-		url('../fonts/Raleway-ExtraBoldItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-ExtraBoldItalic.svg#Raleway-ExtraBoldItalic') format('svg');
-	font-weight: 800;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
-	src: url('../fonts/Raleway-LightItalic.eot');
-	src: local('Raleway Light Italic'), local('Raleway-LightItalic'),
-		url('../fonts/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Raleway-LightItalic.woff2') format('woff2'),
-		url('../fonts/Raleway-LightItalic.woff') format('woff'),
-		url('../fonts/Raleway-LightItalic.ttf') format('truetype'),
-		url('../fonts/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Raleway';
 	src: url('../fonts/Raleway-Bold.eot');
 	src: local('Raleway Bold'), local('Raleway-Bold'),
 		url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
@@ -244,8 +75,8 @@ html, body{
 }
 
 .container{
-    width: 1200px;
-    min-height: 50px;
+    width: 1050px;
+    min-height: 30px;
     margin: 0 auto;
 }
 
@@ -264,7 +95,7 @@ header{
 header h2{
     float: left;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: normal;
     text-transform: uppercase;
     line-height: 40px;
@@ -297,8 +128,8 @@ header nav ul{
 
 .navbar > li > a:link, .navbar > li > a:visited {
     line-height: 40px;
-    font-size: 10px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -307,8 +138,8 @@ header nav ul{
 
 .navbar > li > a:hover, .navbar > li > a:active {
     line-height: 40px;
-    font-size: 10px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 600;
     color: #2cd1b3;
     text-decoration: none;
     text-transform: uppercase;
@@ -317,13 +148,6 @@ header nav ul{
 
 .navbar > li:hover .dropdown-menu, .navbar > li:active .dropdown-menu{
     display: block;
-}
-
-.dropdown-menu ul li{
-    width: 100px;
-    height: 40px;
-    background-color: black;
-    text-align: center;
 }
 
 .dropdown-menu{
@@ -335,7 +159,16 @@ header nav ul{
     margin: auto;
 }
 
-.box{
+.dropdown-menu ul li{
+    width: 120px;
+    height: 32px;
+    background-color: black;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.dropdown-box{
     position: relative;
     width: 20px;
     height: 20px;
@@ -346,23 +179,23 @@ header nav ul{
     z-index: 0;
 }
 
-.dropdown-menu ul li a:link, header nav ul li a:visited {
-    line-height: 40px;
-    font-size: 10px;
-    font-weight: normal;
+.dropdown-menu ul li a:link, .dropdown-menu ul li a:visited {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
     color: white;
     text-decoration: none;
-    text-align: center;
     z-index: 10;
 }
 
-.dropdown-menu ul li a:hover, header nav ul li a:active {
-    line-height: 40px;
-    font-size: 10px;
-    font-weight: normal;
+.dropdown-menu ul li a:hover, .dropdown-menu ul li a:active {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
     color: #2cd1b3;
     text-decoration: none;
-    text-align: center;
     z-index: 10;
 }
 
@@ -382,24 +215,615 @@ section{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dadadd', GradientType=0 );
 }
 
-#intro div div{
+#intro>div>div{
     float: left;
 }
 
-#intro div div:first-child, #intro div div:last-child {
-    width: 20px;
-    color: #2cd1b3;
+.intro-img{
+    height: 450px;
+    width: 430px;
+    background-image: url('../images/black_chair.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#intro>div>div:first-child, #intro>div>div:last-child {
+    width: 40px;
+    color: #24ba9f;
     text-align: center;
-    font-weight: normal;
-    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 72px;
     height: 500px;
     line-height: 500px;
 }
 
+.intro-content{
+    width: 455px;
+    height: 500px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 35px;
+}
+
+.intro-content>h1{
+    margin-top: 130px;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.intro-content>h1 span{
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    color: #24ba9f;
+}
+
+.intro-content>p{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    line-height: 22px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.intro-content>div{
+    width: 260px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #24ba9f;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+
+#gallery>div{
+    height: 350px; 
+}
+
+#gallery>div>div{
+    float: left;
+    margin-top: 25px;
+}
+
+/*=== Lewy obrazek ===*/
+
+#gallery>div>div:first-child{
+    width: 330px;
+    height: 225px;
+    background-image: url('../images/box1_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#gallery>div>div:first-child>div{
+    width: 330px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 150px;
+}
+
+#gallery>div>div:first-child>div>h3{
+    padding-left: 3px;
+}
+
+#gallery>div>div:first-child>div>div{
+    width: 140px;
+    height: 7px;
+    background-color: #25caa2;
+}
+
+/*=== Środkowy obrazek ===*/
+
+#gallery>div>div:nth-child(2n){
+    width: 330px;
+    height: 225px;
+    background-image: url('../images/box2_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+#gallery>div>div:nth-child(2n)>div{
+    width: 330px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 150px;
+}
+
+#gallery>div>div:nth-child(2n)>div>h3{
+    padding-left: 3px;
+}
+
+#gallery>div>div:nth-child(2n)>div>div{
+    width: 140px;
+    height: 7px;
+    background-color: #25caa2;
+}
+
+/*=== Prawy obrazek ===*/
+
+#gallery>div>div:last-child{
+    width: 340px;
+    height: 255px;
+    border: 1px solid #dbdbdb;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px;
+    margin-left: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+
+#gallery>div>div:last-child>h3{
+    padding-bottom: 3px;
+    font-size: 16px;
+}
+
+#gallery>div>div:last-child>div{
+    width: 140px;
+    height: 7px;
+    background-color: #25caa2;
+}
+
+#gallery>div>div:last-child>p:first-of-type{
+    margin-top: 10px;
+    text-align: left;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#gallery>div>div:last-child>p:last-of-type{
+    margin-top: 20px;
+    text-align: left;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ===== CENNIK ==== */
+
+/* === Nagłówek ===*/
+#main{
+    width: 100%;
+    height: 725px;
+    background-color: #f1f1f1;
+}
+
+#main>div:first-child>h2{
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+#main>div:first-child>div{
+    width: 320px;
+    height: 7px;
+    background-color: #25caa2;
+    margin-bottom: 76px;
+}
+
+/* === Oferty === */
+.main-box{
+    position: relative;
+    float: left;
+    width: 329px;
+    height: 498px;
+    border: 2px solid #d6d6d6;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-left: 31px;
+}
+
+.main-box:first-of-type{
+    margin-left: 0;
+}
+
+.circle-one{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: auto;
+    top: -36px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.circle-one>div{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.main-box>h2{
+    margin-top: 25px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #27c7ab;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    z-index: 10;
+}
+
+.circle-two{
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: auto;
+    top: 82px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.circle-two>p:first-child{
+    display: block;
+    position: absolute;
+    color: #c1c1c1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px; 
+    top: 27px;
+    right: 8px;
+    left: 0;
+    bottom: 0;
+    margin: auto;    
+}
+
+.circle-two>p:first-child sup{
+    display: block;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px; 
+    top: 0;
+    right: 0;
+    left: 65px;
+    bottom: 40px;
+    margin: auto;
+}
+
+/* Poniżej ostylowanie indeksu dla ostatniej oferty.*/
+.lastSup{
+    left: 80px !important;
+}
+
+.circle-two>p:last-child{
+    display: block;
+    position: absolute;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px; 
+    top: 80px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-box>p{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #e4e4e4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px; 
+}
+
+.main-box>p:nth-of-type(2n+1){
+    background-color: #e4e4e4;
+    color: #a1a1a1;
+}
+
+.main-box>p:nth-of-type(2n){
+    background-color: #f1f1f1;
+    color: #888888;
+}
+
+.main-box>p:first-of-type{
+    margin-top: 188px;
+}
+
+.main-button{
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 33px;
+    line-height: 33px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #27c7ab;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+/* === Oferty - hover/active === */
+
+.main-box:hover{
+    background-color: #27c7ab;
+    border-color: #27c7ab;
+}
+
+.main-box:hover h2{
+    color: #ffffff;
+}
+
+.main-box:hover .circle-one{
+    background-color: #27c7ab;
+    border-color: #27c7ab;
+}
+
+.main-box:hover .circle-one>div{
+    background-color: #fbfffe;
+}
+
+.main-box:hover .circle-two{
+    border-color: #27c7ab;
+}
+
+.main-box:hover .circle-two p{
+    color: #27c7ab;
+}
+
+.main-box:hover > p:nth-of-type(2n+1){
+    background-color: #ffffff;
+}
+
+.main-box:hover .main-button{
+    background-color: #ffffff;
+    color: #27c7ab;
+}
+
+
+/* === FORMULARZ KONTAKTOWY === */
+
+/* === NAGŁÓWEK ==== */
 form{
     width: 100%;
+    height: 550px;
 }
+
+form>div:first-child>h2{
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+form>div:first-child>div{
+    width: 320px;
+    height: 7px;
+    background-color: #25caa2;
+    margin-bottom: 44px;
+}
+
+
+/* === FORMULARZ === */
+form>div:last-child div{
+    float: left;
+}
+
+form>div:last-child div:first-of-type{
+    width: 660px;
+}
+
+form>div:last-child div:last-of-type{
+    width: 343px;
+    height: 370px;
+    margin-left: 47px;
+    text-align: left;
+    position: relative;
+}
+
+
+input, textarea{
+    display: block;
+    width: 632px;
+    border: 1px solid #25caa2;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: #25caa2;
+    padding-left: 16px;
+}
+
+input{
+    margin-bottom: 26px;
+    height: 65px;
+    line-height: 65px;
+}
+
+textarea{
+    height: 188px;
+    resize: none;
+    padding-top: 15px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    opacity: 1;
+    color: #e4e4e4;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    opacity: 1;
+    color: #e4e4e4;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    opacity: 1;
+    color: #e4e4e4;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #25caa2;
+}
+
+form>div:last-child div:last-of-type>img{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    margin: auto;
+}
+
+form>div:last-child div:last-of-type>label{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+    color: #c6c6c6;
+    right: 0;
+    left: 0;
+    bottom: 108px;
+    margin: auto;
+    margin-left: 61px;
+    z-index: 100;
+}
+
+form>div:last-child div:last-of-type>input[type='checkbox'] {
+    display: none;
+}
+ 
+form>div:last-child div:last-of-type>input[type='checkbox']+div{
+    display: inline-block;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #25caa2;
+    height: 48px;
+    width: 48px;
+    left: 0;
+    bottom: 108px;
+    margin: auto;
+    z-index: 100;
+}
+
+form>div:last-child div:last-of-type>input[type='checkbox']:checked+div{
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+    background: url("../images/form_ok.jpg") center/contain no-repeat #ffffff;
+    border: 1px solid #25caa2;
+    height: 48px;
+    width: 48px;
+    left: 0;
+    bottom: 108px;
+    margin: auto;
+    z-index: 100;
+}
+
+
+
+.form-button{
+    position: absolute;
+    width: 343px;
+    height: 69px;
+    line-height: 52px;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #24ba9f;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 
 footer{
     width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+footer>div>p{
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: #a1a1a1;
+    line-height: 100px;
+}
+
+footer>div>div{
+    float: right;
+}
+
+footer>div>div>img{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+footer>div>div>p{
+    display: inline-block;
+    letter-spacing: 1.25px;
+    line-height: 100px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 18px;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    margin-left: 50px;
 }
