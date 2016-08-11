@@ -146,9 +146,13 @@ header nav ul{
     text-align: center;
 }
 
+/* === Dla wersji bez JS z wykorzystaniem samego CSS === */
+/*
 .navbar > li:hover .dropdown-menu, .navbar > li:active .dropdown-menu{
     display: block;
 }
+*/
+
 
 .dropdown-menu{
     display: none;
@@ -199,6 +203,14 @@ header nav ul{
     z-index: 10;
 }
 
+.visibility{
+    display: block;
+}
+
+.nonvisibility{
+    display: none;
+}
+
 section{
     width: 100%;
 }
@@ -222,11 +234,27 @@ section{
 .intro-img{
     height: 450px;
     width: 430px;
-    background-image: url('../images/black_chair.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 130%;
     margin-top: 50px;
+    display: none;
+}
+
+.imgOne{
+    background-image: url('../images/black_chair.png');
+}
+
+.imgTwo{
+    background-image: url('../images/red.png');
+}
+
+.imgThree{
+    background-image: url('../images/orange.png');
+}
+
+.intro-content{
+    display: none;
 }
 
 #intro>div>div:first-child, #intro>div>div:last-child {
@@ -826,4 +854,12 @@ footer>div>div>p{
     color: #a1a1a1;
     text-transform: uppercase;
     margin-left: 50px;
+}
+
+.visibility{
+    display: block;
+}
+
+.nonvisibility{
+    display: none;
 }
