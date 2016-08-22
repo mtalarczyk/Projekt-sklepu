@@ -1,13 +1,14 @@
 document.addEventListener("DOMContentLoaded", function(){
         
-    var dropDownList = document.querySelectorAll('.drop_down_list');
-    var listLabel = document.querySelectorAll('.list_label');
-    var order = document.querySelectorAll('.panel_left *');
-    var orderValue = document.querySelectorAll('.panel_right *');
-    var li = document.querySelectorAll('.list_panel>li');
-    var input = document.querySelector('[id="transport"]');
-    var sum = document.querySelector('.sum strong');
+    var dropDownList = document.querySelectorAll('.drop_down_list'); //uchwycenie wszystkich div'ów odpowiedzialnych za całe dropDownList
+    var listLabel = document.querySelectorAll('.list_label'); //uchwycenie wszsystkich wpisów: Wybierz fotel, Wybierz kolor, Wybierz tkaninę
+    var order = document.querySelectorAll('.panel_left *'); //tabelka z wypisanymi wszystkimi pozycjami zamówienia
+    var orderValue = document.querySelectorAll('.panel_right *'); //tabelka z wypisanymi wszystkimi wartościami pozycji zamówienia
+    var li = document.querySelectorAll('.list_panel>li'); //wszystkie elementy li z tego formularza
+    var input = document.querySelector('[id="transport"]'); //checkbox od Transportu
+    var sum = document.querySelector('.sum strong'); //pole w którym wpisywana jest suma
     
+    // Funkcja odpowiedzialna za przypisanie ceny
     function priceCalculate(){
         var price = 0;
         for(var i=0; i<orderValue.length;i++){

@@ -796,8 +796,6 @@ form>div:last-child div:last-of-type>input[type='checkbox']:checked+div{
     z-index: 100;
 }
 
-
-
 .form-button{
     position: absolute;
     width: 343px;
@@ -856,18 +854,13 @@ footer>div>div>p{
     margin-left: 50px;
 }
 
-.visibility{
-    display: block;
-}
+/* F O R M U L A R Z - K A K U L A T O R*/
 
-.nonvisibility{
-    display: none;
+section.application *{
+    box-sizing: content-box; 
 }
-
-/* F O R M U L A R Z */
 
 .application {
-    
   background-color: #f9f9f9;
   padding:30px 0;
 }
@@ -883,7 +876,6 @@ footer>div>div>p{
 
 
 .inline {
-  box-sizing: content-box; 
   display:inline-block;
   width:300px;
   padding:14px;
@@ -891,13 +883,11 @@ footer>div>div>p{
 }
 
 
-.form {
-  box-sizing: content-box;  
+.form { 
   margin-top:50px;
 }
 
 .drop_down_list {
-  box-sizing: content-box;
   border:1px solid #8de0d2;
   width: 280px;
   height:38px;
@@ -916,10 +906,10 @@ footer>div>div>p{
 
 
 .checkbox {
-    box-sizing: content-box;
   position: relative;
   padding: 30px 30px 30px 0;
 }
+
 .checkbox input {
   display: block;
   opacity: 0;
@@ -950,6 +940,7 @@ footer>div>div>p{
   width: 48px;
   top: 0;
 }
+
 .checkbox label::after {
   background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
   border: 0;
@@ -968,7 +959,6 @@ footer>div>div>p{
 
 }
 .inline_text {
-    box-sizing: content-box;
   display: inline-block;
   width: 228px;
   vertical-align: top;
@@ -982,14 +972,12 @@ footer>div>div>p{
 }
 
 .image_part img{
-    box-sizing: content-box;
   margin-top: 110px;
   margin-left: 45px;
 }
 
 
 .application .green_bell {
-    box-sizing: content-box;
   background-color: #24baa0;
   width: 200px;
   height: 6px;
@@ -998,7 +986,6 @@ footer>div>div>p{
 }
 
 .summary_panel {
-  box-sizing: content-box;
   background-color: white;
   width:100%;
   height:195px;
@@ -1008,7 +995,6 @@ footer>div>div>p{
 }
 
 .application .green_button {
-    box-sizing: content-box;
   background-color: #27c7ab;
   color: white;
   text-align:center;
@@ -1023,8 +1009,8 @@ footer>div>div>p{
   border-radius: 8px;
   text-decoration: none;
 }
+
 .panel_left {
-  box-sizing: content-box;
   display: inline-block;
   width: 185px;
   vertical-align: top;
@@ -1034,7 +1020,6 @@ footer>div>div>p{
 }
 
 .panel_right {
-  box-sizing: content-box;
   display: inline-block;
   width: 100px;
   border-left:1px solid #e7e7e7;
@@ -1052,7 +1037,6 @@ footer>div>div>p{
 }
 
 .panel_left span{
-  box-sizing: content-box;
   margin-top: 10px;
   font-size: 22px;
   color: #5b5a5a;
@@ -1060,14 +1044,13 @@ footer>div>div>p{
 }
 
 .panel_right span {
-  box-sizing: content-box;
   display: block;
   font-size: 22px;
   color: #24baa0;
   margin-top:10px;
 }
+
 .sum_label{
-  box-sizing: content-box;
   display: inline-block;
   width: 185px;
   margin-top: 10px;
@@ -1076,7 +1059,6 @@ footer>div>div>p{
 }
 
 .sum {
-  box-sizing: content-box;
   display: inline-block;
   width: 100px;
   text-align: right;
@@ -1099,7 +1081,6 @@ footer>div>div>p{
 }
 
 .list_panel {
-  box-sizing: content-box;
   background-color: white;
   border: 1px solid #ccc;
   width: 288px;
@@ -1114,17 +1095,19 @@ footer>div>div>p{
   display:none;
 }
 .list_panel li {
-  box-sizing: content-box;
   margin-top:10px;
   cursor: pointer;
   color: #585858;
 }
 
 .title {
-    box-sizing: content-box;
   height: 30px;
 }
 
 .visible{
     display: block;
+}
+
+.invisible{
+    display: none;
 }
