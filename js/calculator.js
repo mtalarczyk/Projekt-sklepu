@@ -13,9 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var price = 0;
         for(var i=0; i<orderValue.length;i++){
             var item = orderValue[i].innerText;
-            if(item == ""){
-                console.log("item === NaN");
-            }else{
+            if(item != ""){
                price+=parseInt(item);
             };
             

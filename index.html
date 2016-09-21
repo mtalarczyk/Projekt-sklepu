@@ -172,8 +172,6 @@
                     <input type="checkbox" id="transport" data-transport-price="200">
                     <label for="transport">Transport</label>
                 </div>
-                <!--<div class="checkbox"></div>-->
-                <!--<span class="list_label inline_text">Transport</span>-->
             </div>
         </section>
 
@@ -216,9 +214,9 @@
         </div>
         <div class="container clearfix">
             <div>
-                <input type="text" name="name" placeholder="Imię" />
-                <input type="text" name="email" placeholder="email" />
-                <textarea placeholder="Wiadomość"></textarea>
+                <input type="text" name="name" placeholder="Imię" autocomplete="on" required="required"/>
+                <input type="email" name="email" placeholder="email" autocomplete="on" required="required"/>
+                <textarea placeholder="Wiadomość" autocomplete="on" required="required"></textarea>
             </div>
             <div>
                 <img src="./images/red_chair.png" alt="Red Chair"/>

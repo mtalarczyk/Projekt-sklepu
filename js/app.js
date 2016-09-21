@@ -38,13 +38,11 @@ document.addEventListener("DOMContentLoaded", function(){
     
     //Ustawienie widocznego pierwszego obrazka oraz opisu
     var index = 0;
-    console.log(list[index]);
     list[index].classList.add("visible");
     cont[index].classList.add("visible");
     
     //Następny obrazek oraz opis
     next.addEventListener('click', function(){
-        console.log("Działa next!");
         
         list[index].classList.remove("visible");
         cont[index].classList.remove("visible");
@@ -60,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function(){
     
     //Poprzedni obrazek oraz opis
     prev.addEventListener('click', function(){
-        console.log("Działa prev!");
         
         list[index].classList.remove("visible");
         cont[index].classList.remove("visible");
