@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
     
     
-// Zadanie 2 - oprogramowanie galerii - wersja beta    
+// Zadanie 2 - oprogramowanie galerii    
     var picture = document.querySelectorAll('.chair');
     var chair = document.querySelectorAll('.chair>div');
     picture[0].addEventListener('mouseenter', function(){
